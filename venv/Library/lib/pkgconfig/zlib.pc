@@ -1,0 +1,13 @@
+prefix=C:/Users/khans/Desktop/ML00/venv/Library
+exec_prefix=C:/Users/khans/Desktop/ML00/venv/Library
+libdir=C:/Users/khans/Desktop/ML00/venv/Library/lib
+sharedlibdir=C:/Users/khans/Desktop/ML00/venv/Library/lib
+includedir=C:/Users/khans/Desktop/ML00/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
