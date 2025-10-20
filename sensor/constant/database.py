@@ -1,0 +1,2 @@
+DATABASE_NAME= "mlproj"
+COLLECTION_NAME="sensor"
