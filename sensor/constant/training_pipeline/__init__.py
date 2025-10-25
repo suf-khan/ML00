@@ -13,6 +13,9 @@ MODEL_FILE_NAME= "model.pkl"
 SCHEMA_FILE_PATH=os.path.join("config", "schema.yaml")
 SCHEMA_DROP_COLS= "drop_columns"
 
+SAVED_MODEL_DIR= os.path.join("saved_models")
+
+
 
 """
  data ingestion related constant values
@@ -52,3 +55,15 @@ MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 
+"""
+Model Evaluation related constants 
+"""
+MODEL_EVALUATION_DIR_NAME: str= "model_evaluation"
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float= 0.02 
+MODEL_EVALUATION_REPORT_NAME= "report.yaml"
+
+'''
+Model Pusher related constants
+'''
+MODEL_PUSHER_DIR_NAME= "model_pusher"
+MODEL_PUSHER_SAVED_MODEL_DIR= SAVED_MODEL_DIR
